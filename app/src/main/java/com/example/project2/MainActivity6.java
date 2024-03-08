@@ -19,4 +19,10 @@ public class MainActivity6 extends AppCompatActivity {
         startActivity(intent);
         finish();
     }
+
+    public void Start(View v) {
+         Intent intent = new Intent(this, MainActivity8.class);
+        startActivity(intent);
+        finish();
+    }
 }

@@ -29,5 +29,10 @@ public class MainActivity2 extends AppCompatActivity {
 
     }
 
+    public void GoInfo(View v){
+        Intent intent = new Intent(this, MainActivity3.class);
+        startActivity(intent);
+    }
+
 
 }
